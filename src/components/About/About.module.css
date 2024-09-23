@@ -1,0 +1,118 @@
+.mainAboutBody {
+  position: relative;
+}
+.bannerMint3 {
+  position: absolute;
+  height: 500px;
+  width: 360px;
+  z-index: -1;
+  rotate: 200deg;
+  left: -90px;
+}
+.bannerMint4 {
+  position: absolute;
+  height: 600px;
+  width: 630px;
+  right: 0;
+  z-index: -1;
+  bottom: -250px;
+}
+.bannerHeadText > p {
+  text-align: center;
+  text-wrap: balance;
+}
+.aboutFresco {
+  font-family: var(--ff-primary-bold);
+  font-size: 50px;
+  color: #334a2c;
+}
+.aboutFrescoDesc {
+  color: #4a4a4a;
+  font-size: 15px;
+  font-family: var(--ff-secondary-reg);
+  margin-bottom: 2rem;
+}
+.mainBGImg {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  margin-top: -150px;
+  z-index: -1;
+}
+.mainBGImg > img {
+  object-fit: contain;
+}
+.mainVegeDiv {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.vegeDivImg {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+.vegeDiv,
+.vegeDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 280px;
+  margin-bottom: 1rem;
+}
+.vegeDiv > p,
+.vegeDiv2 > p {
+  line-height: 1.2;
+  margin-bottom: 0px;
+  text-align: center;
+  text-wrap: balance;
+  font-family: var(--ff-secondary-reg);
+}
+.vegeDiv > a,
+.vegeDiv2 > a {
+  font-family: var(--ff-primary-bold);
+}
+.vegeDiv2 {
+  margin-top: 10rem;
+}
+@media only screen and (max-width: 1300px) {
+  .bannerMint3 {
+    height: 350px;
+    width: 240px;
+  }
+  .bannerMint4 {
+    height: 475px;
+    width: 360px;
+    /* z-index: -2; */
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .bannerMint3 {
+    opacity: 0.1;
+  }
+  .bannerMint4 {
+    opacity: 0.1;
+  }
+}
+@media only screen and (max-width: 776px) {
+  .mainVegeDiv {
+    flex-wrap: wrap;
+  }
+  .vegeDiv2 {
+    margin-top: unset;
+  }
+  .mainBGImg {
+    margin-top: 15px;
+  }
+  .bannerMint4 {
+    height: 300px;
+    width: 250px;
+    bottom: 50px;
+    /* z-index: -2; */
+  }
+}

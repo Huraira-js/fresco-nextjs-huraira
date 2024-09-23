@@ -1,0 +1,142 @@
+.mainContactUsDiv {
+  overflow: hidden;
+}
+.ContactUsHeadingDiv {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.ContactUsHeadingDiv > p {
+  font-family: var(--ff-primary-bold);
+  color: #334a2c;
+  font-size: 118px;
+  font-weight: 700;
+  line-height: 142.9px;
+  text-align: center;
+  margin-bottom: 0rem;
+}
+.headWrapper {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.downloadMint2,
+.downloadMint3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.downloadMint2 {
+  right: -65px;
+}
+.downloadMint3 {
+  left: -65px;
+}
+.downloadMint2 > img,
+.downloadMint3 > img {
+  object-fit: contain;
+}
+.emailCall,
+.emailDiv,
+.callDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.emailTextDiv > p,
+.callTextDiv > p {
+  margin-bottom: 0rem;
+  font-family: var(--ff-secondary-reg);
+}
+.emailBold,
+.callBold {
+  font-family: unset;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+}
+.emailDiv > span,
+.callDiv > span {
+  padding: 10px;
+  padding-inline: 15px;
+  background-color: #334a2c;
+  color: white;
+  border-radius: 15px;
+}
+.emailDiv > span svg,
+.callDiv > span svg {
+  line-height: 1;
+}
+.form {
+  max-width: 1200px;
+  padding: 23px 40px 30px 40px;
+  box-shadow: 0px 4px 35px 0px #1e1e401a;
+  margin-top: 2rem;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 15px, 35px, 15px, 35px;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.socials > span {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: center;
+  padding: 5px;
+  margin-right: 1rem;
+  font-family: var(--ff-secondary-reg);
+}
+.facebookIcon,
+.twitterIcon,
+.linkedInIcon,
+.googleIcon {
+  padding: 5px;
+  padding-inline: 10px;
+  background-color: #334a2c;
+  color: white;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .ContactUsHeadingDiv > p {
+    font-size: 50px;
+  }
+  .form{
+    padding: 23px 0px 30px 0px;
+  }
+}
+@media screen and (max-width: 476px) {
+  .emailCall {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 382px) {
+  .socials {
+    flex-direction: column;
+  }
+  .facebookIcon,
+  .twitterIcon,
+  .linkedInIcon,
+  .googleIcon {
+    margin-bottom: 1rem;
+  }
+  .socials > span {
+    margin-bottom: 1rem;
+  }
+}

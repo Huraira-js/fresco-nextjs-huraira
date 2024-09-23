@@ -1,0 +1,282 @@
+.mainBannerBody {
+  position: relative;
+}
+.bannerMint2 {
+  right: 10px;
+  top: -25px;
+  position: absolute;
+  height: 220px;
+  width: 188px;
+}
+.bannerMint2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.bannerMint1 {
+  position: absolute;
+  height: 110px;
+  left: 27px;
+  width: 90px;
+  top: -45px;
+}
+.bannerHeadText {
+  position: absolute;
+  left: 250px;
+  top: 30px;
+}
+.bannerHeadText > span {
+  width: 20px;
+  font-family: var(--ff-primary-bold);
+}
+.bannerMint1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.bannerTomato {
+  /* right: 10px; */
+  top: 150px;
+  position: absolute;
+  height: 330px;
+  width: 400px;
+}
+.bannerTomato img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.bannerLemon {
+  right: 10px;
+  top: 100px;
+  position: absolute;
+  height: 400px;
+  width: 450px;
+}
+.bannerLemon img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.refImage {
+  position: relative;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.content p {
+  width: 490px;
+  color: #334a2c;
+  font-size: 100px;
+  font-weight: 700;
+}
+.content span {
+  width: 500px;
+  font-size: 14px;
+  font-weight: 400;
+  /* text-align: center; */
+}
+.fresh {
+  margin-left: 20px;
+}
+.btns button {
+  width: 137px;
+  height: 45px;
+  padding: 5.19px 11.94px 7.79px 11.94px;
+  border-radius: 6.23px;
+  border: 0.52px;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 20px 20px 0px 0px;
+}
+.text {
+  color: #4a4a4a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  font-family: var(--ff-secondary-reg);
+}
+.playImg {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.playImg img {
+  object-fit: contain;
+}
+.btnContentDiv1 {
+  display: flex;
+  align-items: center;
+}
+.btnTextContent {
+  display: flex;
+  flex-direction: column;
+}
+.btnContentDiv1 p {
+  margin-bottom: 0px;
+  font-size: 10px;
+  font-weight: 400;
+  color: unset;
+  width: unset;
+  text-align: left;
+}
+.btnContentDiv1 svg {
+  width: 25px;
+  height: 25px;
+}
+/* .btnContentDiv2 {
+  width: 25px;
+  height: 25px;
+} */
+.refImage > p {
+  font-size: 150px !important;
+  font-family: var(--ff-primary-bold);
+  font-weight: 500;
+  line-height: 1;
+}
+@media only screen and (max-width: 1300px) {
+  .bannerTomato {
+    width: 260px;
+    height: 215px;
+  }
+  .bannerMint2 {
+    width: 200px;
+    height: 170px;
+  }
+  .bannerLemon {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .bannerTomato {
+    opacity: 0.7;
+  }
+  .bannerMint2 {
+    opacity: 0.7;
+  }
+  .bannerLemon {
+    opacity: 0.7;
+  }
+  .content p {
+    font-size: 70px;
+  }
+  .btnContentDiv1 p {
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    color: unset;
+    width: unset;
+    text-align: left;
+  }
+  /* .bannerMint1 {
+    left: 10px;
+    width: 50px;
+    top: -40px;
+  }
+  .bannerHeadText {
+    top: 10px;
+    left: 95px;
+  } */
+}
+@media only screen and (max-width: 776px) {
+  .bannerTomato {
+    width: 200px;
+    height: 160px;
+    opacity: 0.7;
+  }
+  .bannerMint2 {
+    width: 150px;
+    height: 130px;
+    opacity: 0.7;
+  }
+  .bannerLemon {
+    width: 260px;
+    height: 250px;
+    opacity: 0.7;
+  }
+  .refImage > p {
+    font-size: 130px !important;
+    /* text-align: center; */
+  }
+  .content {
+    padding: 50px;
+  }
+  .content p {
+    font-size: 50px;
+  }
+  .content span {
+    font-size: 12px;
+  }
+  .btnContentDiv1 p {
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 400;
+    color: unset;
+    width: unset;
+    text-align: left;
+  }
+  .bannerMint1 {
+    left: 10px;
+    width: 90px;
+    top: -40px;
+  }
+  .bannerHeadText {
+    top: 25px;
+    left: 225px;
+  }
+  /* .content p {
+    width: unset;
+  } */
+  .content span {
+    width: unset;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 676px) {
+  .content p {
+    width: unset;
+  }
+}
+@media only screen and (max-width: 476px) {
+  .refImage > p {
+    font-size: 80px !important;
+  }
+  .bannerMint1 {
+    left: 10px;
+    width: 50px;
+    top: -50px;
+  }
+  .bannerHeadText {
+    top: 10px;
+    left: 100px;
+  }
+  .bannerTomato {
+    width: 160px;
+    height: 132px;
+    opacity: 0.3;
+  }
+  .bannerMint2 {
+    width: 150px;
+    height: 130px;
+    opacity: 0.3;
+  }
+  .bannerLemon {
+    width: 215px;
+    height: 210px;
+    opacity: 0.3;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .btns button {
+    margin: 5px 0px 0px 0px;
+  }
+}

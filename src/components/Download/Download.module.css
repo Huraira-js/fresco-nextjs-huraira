@@ -1,0 +1,127 @@
+.downloadMainDiv {
+  overflow: hidden;
+}
+.downloadSection {
+  position: relative;
+}
+.downloadSection::after {
+  content: "";
+  position: absolute;
+  width: calc(200vw - 25vw);
+  height: 100%;
+  background-color: #fef6ea;
+  top: 50%;
+  right: -100vw;
+  transform: translateY(-50%);
+  z-index: -1;
+  border: 1px solid #000;
+}
+.phoneImgDiv {
+  position: relative;
+  width: 100%;
+  height: 635px;
+}
+.phoneImgDiv > img {
+  object-fit: contain;
+}
+.downloadHeading {
+  color: #334a2c;
+  font-family: var(--ff-primary-bold);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60.55px;
+  text-align: left;
+}
+.DownloadText {
+  text-wrap: balance;
+  font-family: var(--ff-secondary-reg);
+}
+.btns button {
+  width: 137px;
+  height: 45px;
+  padding: 5.19px 11.94px 7.79px 11.94px;
+  border-radius: 6.23px;
+  border: 0.52px;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 20px 20px 0px 0px;
+}
+.btnContentDiv1 {
+  display: flex;
+  align-items: center;
+}
+.btnTextContent {
+  display: flex;
+  flex-direction: column;
+}
+.btnContentDiv1 p {
+  margin-bottom: 0px;
+  font-size: 10px;
+  font-weight: 400;
+  color: unset;
+  width: unset;
+  text-align: left;
+}
+.btnContentDiv1 svg {
+  width: 25px;
+  height: 25px;
+}
+.playImg {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.playImg img {
+  object-fit: contain;
+}
+.downloadSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-block: auto;
+  padding-block: 3rem;
+}
+.downloadMint2 {
+  position: relative;
+  width: 210px;
+  height: 245px;
+  right: 52px;
+}
+.downloadMint2 > img {
+  object-fit: contain;
+}
+@media screen and (max-width: 991px) {
+  .downloadMint2 {
+    opacity: 0.7;
+  }
+}
+@media screen and (max-width: 768px) {
+  .downloadSection {
+    padding-top: 11rem;
+    margin-top: -8rem;
+  }
+  .downloadSection::after {
+    width: 200vw;
+  }
+  .phoneImgDiv > img {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .phoneImgDiv {
+    height: 500px;
+  }
+  .downloadMint2 {
+    opacity: 0.3;
+  }
+}
+@media screen and (max-width: 445px) {
+  .phoneImgDiv {
+    height: 400px;
+  }
+}
+@media screen and (max-width: 357px) {
+  .btns {
+    text-align: center;
+  }
+}
