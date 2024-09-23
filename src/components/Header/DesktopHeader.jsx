@@ -79,7 +79,6 @@ const DesktopHeader = ({
               src="/images/mint 5.png"
               alt="Mint image"
               fill
-              className={Style.image}
             />
           </div>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

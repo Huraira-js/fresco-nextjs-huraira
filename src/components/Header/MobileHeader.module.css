@@ -15,7 +15,7 @@
   gap: 0.5rem;
   padding: 16px;
 }
-.text{
+.text {
   font-family: var(--ff-secondary-reg);
 }
 .languageDropDownDiv {
@@ -32,6 +32,13 @@
   align-items: center;
   justify-content: start;
   margin-inline-end: auto;
+}
+.navLeavesImg {
+  position: absolute;
+  top: 0px;
+  height: 50px;
+  right: 40%;
+  width: 250px;
 }
 
 .imageContainer + div {
@@ -195,10 +202,30 @@
     max-width: 90%;
   }
 }
+@media (max-width: 767px) {
+  .navLeavesImg{
+    right: 25%;
+  }
+}
+@media (max-width: 567px) {
+  .navLeavesImg{
+    right: 10%;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .header {
     grid-template-columns: 1fr auto;
     padding-bottom: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .navLeavesImg{
+    right: 0;
+  }
+}
+@media (max-width: 376px) {
+  .navLeavesImg{
+    opacity: 0.3;
   }
 }

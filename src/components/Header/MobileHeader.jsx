@@ -29,16 +29,16 @@ export const MobileHeader = ({
   const logout = () => {
     router.push("/");
   };
-   HeaderButtons = [
+  HeaderButtons = [
     ...HeaderButtons,
-      {
-        label: "Login",
-        value: "/",
-      },
-      {
-        label: "Signup",
-        value: "/",
-      },
+    {
+      label: "Login",
+      value: "/",
+    },
+    {
+      label: "Signup",
+      value: "/",
+    },
   ];
 
   return (
@@ -56,6 +56,9 @@ export const MobileHeader = ({
               fill
               style={{ objectFit: "contain" }}
             />
+          </div>
+          <div className={classes.navLeavesImg}>
+            <Image src="/images/mint 5.png" alt="Mint image" fill />
           </div>
           {/*           <SearchInput value={search} setter={setSearch} /> */}
           <div className={classes.languageDropDownDiv}>
